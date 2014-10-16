@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Question Investigation</title>
+		<title>SURVEY</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./stylesheet/style.css"/>
 	</head>
 	<body>
-		<h1>Question Investigation</h1>
-		<form>
-			성별:
-			<input type = "radio" name = "sex" value = "m"/>남
-			<input type = "radio" name = "sex" value = "f"/>여	
-			<br/>
-			나이:
-			<input type = "text" name = "age" size = "3">
-			<br/>
-			학과: 
-			<select name = "major">
-				<option value = "computer engineering">컴퓨터공학과</option>
-				<option value = "electrical engineering">전기공학과</option>
-				<option value = "etc">기타</option>
-			</select>
-			<br/>
-			E-Mail:
-			<input type = "text" name = "e-mail id" size = "10">@
-			<select name = "address" >
-				<option value = "naver.com">naver.com</option>
-				<option value = "nate.net">nate.net</option>
-				<option value = "daum.net">daum.net</option>
-				<option value = "gmail.com">gmail.com</option>
-			</select>
-			<br/>
-			<input type = "submit"/>
-		</form>	
-		<a href="./index.html">1</a>
-		<a href="./index2.html">2</a>
-		<a href="./index3.html">3</a>
+		<h1>SURVEY</h1>
+		<div id = 'wrap'>
+			<div id ="content">
+				<div id = "content_top">
+					<a href="./index.html"><img src="./image/info.png" alt="info" class = "icon"></a>
+					<a href="./index2.html"><img src="./image/spec.png" alt="spec" class = "icon"></a>
+					<a href="./index3.html"><img src="./image/survey.png" alt="survey" class = "icon"></a>
+				</div>
+				<div id = "content_bottom">
+					<form>
+						<ul >
+							<li class ="form">성별:
+								<input type = "radio" name = "sex" value = "m"/>남
+								<input type = "radio" name = "sex" value = "f"/>여	
+							</li>
+							<li class ="form">나이:
+								<input type = "text" name = "age" size = "3">
+							</li>
+							<li class ="form">학과: 
+								<select name = "major">
+									<option value = "computer engineering">컴퓨터공학과</option>
+									<option value = "electrical engineering">전기공학과</option>
+									<option value = "etc">기타</option>
+								</select>
+							</li>
+							<li class ="form">E-Mail:
+								<input type = "text" name = "e-mail id" size = "10">@
+								<select name = "address" >
+									<option value = "naver.com">naver.com</option>
+									<option value = "nate.net">nate.net</option>
+									<option value = "daum.net">daum.net</option>
+									<option value = "gmail.com">gmail.com</option>
+								</select>
+							</li>
+							
+						</ul>
+						<p><input type = "submit"/></p>
+					</form>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

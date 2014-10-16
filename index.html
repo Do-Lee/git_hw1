@@ -3,37 +3,46 @@
 	<head>
 		<title>PROFILE</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./stylesheet/style.css"/>
 	</head>
-	<body>
+	<body >
 		<h1>PROFILE</h1>
-
-		<table border = "1">
-			<tr>
-				<td rowspan = "6"><img src="./image/photo.jpg" alt = "image" width="120" height="150"></td>
-			</tr>
-			<tr colspan = "3">
-				<td >이름</td>
-				<td>이도형</td>
-			</tr>
-			<tr colspan = "3">
-				<td>출생</td>
-				<td>1994년 08월 30일</td>
-			</tr>
-			<tr colspan = "3">
-				<td>학교</td>
-				<td>명지대학교</td>
-			</tr>
-			<tr colspan = "3">
-				<td>학과</td>
-				<td>컴퓨터공학과</td>
-			</tr>
-			<tr colspan = "3">
-				<td>학번</td>
-				<td>60132299</td>
-			</tr>
-		</table>
-		<a href="./index.html">1</a>
-		<a href="./index2.html">2</a>
-		<a href="./index3.html">3</a>
+		
+		<div id = "wrap">
+			<div id ="content">
+				<div id = "content_top">
+					<a href="./index.html"><img src="./image/info.png" alt="info" class = "icon"></a>
+					<a href="./index2.html"><img src="./image/spec.png" alt="spec" class = "icon"></a>
+					<a href="./index3.html"><img src="./image/survey.png" alt="survey" class = "icon"></a>
+				</div>
+				<div id = "content_image">
+					<img src="./image/photo.jpg" alt = "photo">
+				</div>
+				<div id = "content_table">
+					<table>
+						<tr>
+							<td class = "category" >이름</td>
+							<td >이도형</td>
+						</tr>
+						<tr>
+							<td class = "category" >출생</td>
+							<td>1994년 08월 30일</td>
+						</tr>
+						<tr>
+							<td class = "category" >학교</td>
+							<td>명지대학교</td>
+						</tr>
+						<tr>
+							<td class = "category" >학과</td>
+							<td>컴퓨터공학과</td>
+						</tr>
+						<tr>
+							<td class = "category" >학번</td>
+							<td>60132299</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
